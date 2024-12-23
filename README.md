@@ -41,13 +41,13 @@ This project is a backend system for a blogging platform. It provides functional
 
    API Endpoints
 Authentication
-POST /api/auth/register - Register a new user.
-POST /api/auth/login - Log in and receive a token.
-Blogs
-GET /api/blogs - View public blogs with search, sort, and filter functionalities.
-POST /api/blogs - Create a new blog (requires login).
-PUT /api/blogs/:id - Update a blog (owner only).
-DELETE /api/blogs/:id - Delete a blog (owner or admin).
-Admin
-PUT /api/admin/block-user/:id - Block a user.
-DELETE /api/admin/blogs/:id - Delete any blog.
+## POST /api/auth/register - Register a new user.
+## POST /api/auth/login - Log in and receive a token.
+## Blogs
+## GET /api/blogs - View public blogs with search, sort, and filter functionalities.
+## POST /api/blogs - Create a new blog (requires login).
+## PUT /api/blogs/:id - Update a blog (owner only).
+## DELETE /api/blogs/:id - Delete a blog (owner or admin).
+## Admin
+## PUT /api/admin/block-user/:id - Block a user.
+## DELETE /api/admin/blogs/:id - Delete any blog.
